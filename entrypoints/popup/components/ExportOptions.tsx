@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import type { RedditThread } from '~/types/reddit';
+import type { RedditThread } from '../../types/reddit';
 import {
   exportAsCSV,
   exportAsJSON,
@@ -7,7 +7,7 @@ import {
   downloadFile,
   copyToClipboard,
   generateFilename,
-} from '~/utils/export';
+} from '../../utils/export';
 
 interface ExportOptionsProps {
   thread: RedditThread;

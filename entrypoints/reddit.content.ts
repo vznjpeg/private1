@@ -1,6 +1,6 @@
 import { defineContentScript } from 'wxt/sandbox';
-import { scrapeRedditThread } from '~/utils/scraper';
-import type { MessageRequest, MessageResponse } from '~/types/messages';
+import { scrapeRedditThread } from './utils/scraper';
+import type { MessageRequest, MessageResponse } from './types/messages';
 
 export default defineContentScript({
   matches: ['*://reddit.com/*', '*://*.reddit.com/*'],

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import type { RedditComment } from '~/types/reddit';
+import type { RedditComment } from '../../types/reddit';
 
 interface ThreadViewerProps {
   comments: RedditComment[];

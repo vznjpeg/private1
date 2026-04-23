@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import type { RedditThread } from '~/types/reddit';
+import type { RedditThread } from '../types/reddit';
 import ThreadViewer from './components/ThreadViewer';
 import ExportOptions from './components/ExportOptions';
 import DarkModeToggle from './components/DarkModeToggle';
